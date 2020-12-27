@@ -1,0 +1,414 @@
+* {
+  font-family: "Titillium Web", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* ------------------ head ------ */
+
+.navbar .navbar-brand {
+  font-size: 30px;
+      font-size: 30px;
+    color: #000;
+    font-weight: 700;
+}
+.navbar .nav-item {
+  padding: 10px 20px;
+}
+.navbar .nav-link {
+     font-size: 17px;
+    margin-left: -33px;
+    padding: 10px;
+    color: #000;
+    font-weight: 600;
+}
+.navbar .nav-link:hover{
+    font-size: 17px;
+    margin-left: -33px;
+    padding: 8px;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid;
+    background: #F32A58;
+    }
+    
+.fa-bars {
+  color: #000;
+  font-size: 30px;
+}
+.bg-dark{
+	background-color: #f8f9fa00 !important;
+	margin-top: -100px;
+}
+
+.nav-link a{
+	color: #000;
+}
+
+
+.content{
+	position: relative;
+	position: relative;
+    margin-top: -18%;
+    text-align: center;
+}
+
+.content h2{
+    font-weight: 800;
+    color: #fff;
+    font-size: 50px;
+}
+
+.content p{
+	color: #fff;
+}
+
+button{
+	padding: 5px;
+    height: 36px;
+    /* width: 60px; */
+    background: #f32a58;
+    color: #fff;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+button:hover{
+	padding: 5px;
+    height: 36px;
+    /* width: 60px; */
+    background: #fff;
+    color: #f32a58;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+#button1 {
+  display: inline-block;
+  background-color: #dc3545;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  border-radius: 20px;
+}
+
+#button1:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button1:active {
+  background-color: #555;
+}
+#button1.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*   about us ----    */
+
+#about{
+        margin-top: 10%;
+    }
+    #para1{
+        font-size: 14px;
+        color: #504f4eed;
+    }
+    .img1 img{
+        width: 100%;
+        height: 307px;
+        margin-top: 8%;
+        margin-bottom: 20px;
+        cursor: pointer;
+
+        }
+            .img-wrapper {  
+          width: 100%;
+          height: 400px;
+          overflow: hidden; 
+        }
+
+        .inner-img {
+          transition: 0.3s;
+        }
+
+        .inner-img:hover {
+          transform: scale(1.1);
+        }
+
+        /* Other styling elements, that are not necessary for the example */
+
+        .img-wrapper {
+          display: inline-block;
+          box-sizing: border-box;
+          //border: 1px solid #000;
+        }
+
+
+
+/*   menu  ----    */
+        .menu{
+        text-align: center;
+		    }
+
+		   #para2 {
+		    text-align: center;
+		    font-size: 14px;
+		    color: #504f4eed;
+		   }
+
+		   .card {
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		  max-width: 370px;
+		  margin: auto;
+		  font-family: arial;
+		  margin-bottom: 20px;
+		}
+
+		
+
+		.img-wrapper1{
+		     width: 100%;
+		     overflow: hidden;
+		}
+
+		.checked {
+		  color: orange;
+		}
+		.rate{
+		    display: flex;
+		}
+
+		.abc{
+		   margin-top: 10px;
+		    margin-left: 30px;
+		}
+
+
+/*   Expert  ----    */
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+   margin-bottom: 20px;
+}
+
+.title1 {
+  color: grey;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+#expert{
+	margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+
+/*   client  ----    */
+
+
+#said{
+    background-image: url("../img/banner4.jpg");
+       margin-bottom: 25px;
+     width: 100%;
+     overflow: auto;
+     
+}
+
+
+   .card3 {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+
+.card-4 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-4:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.testi{
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    margin-left: 37%;
+    margin-top: 20px;
+    border: 2px solid #dc3545;
+}
+    .title2{
+    padding: 10px;
+    text-align: center;
+}
+.title2 p{
+    color: gray;
+}
+
+
+
+
+
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #f32a58;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid #f32a58;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #f32a58;
+}
+
+.card4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: auto;
+    font-family: arial;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+    label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+/* x        ---------  footer  -------x */
+
+.cont img{
+    width: 100%;
+ }
+ footer{
+    background-color: #000;
+ }
+
+ .map{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+ }
+ .map a{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+ 
+ ul li{
+    list-style-type: none;
+    font-size: 14px;
+ }
+ ul a{
+    font-size: 10px;
+ }
+
+ #ser{
+    margin-top: 13px;
+ }
+
+ .soci a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.soci{
+     margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+form.example input[type=text] {
+  padding: 6px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 70%;
+  background: #f1f1f1;
+      border-radius: 0px;
+}
+
+form.example button {
+  float: left;
+    width: 20%;
+    padding: 9px;
+    background: #dc3545;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #f32a58;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 0px;
+    margin-top: 7px;
+}
+
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Add a background color and some padding around the form */
+
+
+::selection {
+  color: #f32a58;
+  background: #fff;
+}
+
+.copyright{
+   color: #fff;
+   font-size: 14px;
+   margin-top: -10px;
+   text-align: center;
+ }
